@@ -1,19 +1,25 @@
-
 {
-  "name": "bucket-workshop",
+  "name": "bucket_1",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Product API",
+  "main": "s.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "nodemon s.js"
+    "start": "node s.js",
+    "server": "nodemon s.js",
+    "test": "echo \"No tests configured yet\""
   },
-  "keywords": [],
+  "keywords": [
+    "express",
+    "products",
+    "api"
+  ],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
-    "express": "^5.2.1",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
     "nodemon": "^3.1.14"
   }
 }
